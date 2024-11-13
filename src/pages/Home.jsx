@@ -1,6 +1,5 @@
 // import "../styles/home.css";
 import Contact from "./Contact";
-import Footer from "./Footer";
 import Navbar from "./Navbar";
 import Offert from "./Offert";
 import Services from "./Services";
@@ -21,9 +20,6 @@ function Home() {
       </div>
       <div className="w-full h-[100vh] bg-white text-dark">
         <Contact />
-      </div>
-      <div className="w-full h-[200px] bg-black">
-        <Footer />
       </div>
     </>
   );
